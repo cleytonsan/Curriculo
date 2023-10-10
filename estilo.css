@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(50, 107, 122);
+    font: normal 18pt Arial;
+}
+
+h1{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+section{
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    width: 700px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgb(0, 0, 0.363);
+}
+
+input#txtobj{
+    width: 600px;
+}
+
+input#txtformacao{
+    width: 600px;
+}
+
+input#txtcurso{
+    width: 600px;
+}
+
+input#txtexperiencia{
+    width: 600px;
+}
+
+button#btn{
+    text-align: center;
+}
+
+div#res{
+    height: auto;
+    width: auto;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+
+}
+

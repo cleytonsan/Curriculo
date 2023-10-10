@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Exercicio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <section id="conteiner">
+        <form id="form1" class="form">
+            <h1><input type="text" name="NOME" id="txtnome" placeholder="Nome completo" required>
+            <!-- <button type="button" id="adicionar" onclick="adicionarNome()">Adicionar</button></h1> -->
+            <!-- <div id="box" class="box"></div> -->
+        </form>
+        <h3>Dados Pessoais</h3>
+        <form id="form2" class="form">
+            <div>
+                <ul>
+                    <input type="text" name="NATURALIDADE" id="txtnaturalidade" placeholder="Naturalidade" required>,
+                    <input type="text" name="ESTADO CIVIL" id="txtestadoCivil" placeholder="Estado Civil" required>,
+                    <input type="number" name="IDADE" id="txtidade" placeholder="idade" required>
+                    <p><h6>E-mail: <input type="email" name="E-MAIL" id="txtemail" placeholder="hotmail/gmal/yahool" required></h6></p>
+                    <p><h6>Contato: <input type="number" name="CONTATO" id="txtcontato" placeholder="Cel/Tel" required></h6></p>
+                    <p><h6>Endereço: <input type="text" name="ENDEREÇO" id="txtendereco" placeholder="Rua/AV/Estrada" required></h6></p>
+                    <h6>Estado: <input type="text" name="ESTADO" id="txtestado" placeholder="Estado" required>, 
+                    <input type="text" name="PAIS" id="txtpais" placeholder="PAIS" required></h6>
+                </ul>
+            </div>
+        </form>
+        <h3 id="OBJETIVOS">OBJETIVOS</h3>
+        <div>
+            <form id="form3" class="form">
+                <ul>
+                    <li><input type="text" name="OBJETIVOS" id="txtobj" placeholder=""></li>
+                    <div id="box2" class="box2"></div>
+                    <button type="button" id="adicionarObjetivo" onclick="objetivo()">Adicionar</button>
+                    <button onclick="editarValor()">Editar</button>
+                    <button onclick="removerValor()">Remover</button>
+                </ul>
+            </form>
+        </div>
+        <h3 id="FORMACAO">FORMAÇÃO ACADÊMICA</h3>
+        <div>
+            <form id="form4" class="form">
+                <ul>
+                    <li><input type="text" name="FORMAÇÃO ACADÊMICA" id="txtformacao" placeholder=""></li>
+                    <div id="box3" class="box3"></div>
+                    <button type="button" id="adicionarFormacao" onclick="formacao()">Adicionar</button>
+                </ul>
+            </form>
+        </div>
+        <h3 id="CURSOS">CURSOS COMPLEMENTARES</h3>
+        <div>
+            <form id="form5" class="form">
+                <ul>
+                    <li><input type="text" name="CURSOS COMPLEMENTARES" id="txtcurso" placeholder=""></li>
+                    <div id="box4" class="box5"></div>
+                    <button type="button" id="adicionarCursos" onclick="curso()">Adicionar</button>
+                </ul>
+            </form>
+        </div>
+        <h3 id="EXPERIENCIA">EXPERIÊNCIA</h3>
+        <div>
+            <form id="form6" class="form">
+                <ul>
+                    <li><input type="text" name="EXPERIÊNCIA" id="txtexperiencia" placeholder=""></li>
+                    <div id="box5" class="box5"></div>
+                    <button type="button" id="adicionarExperiencia" onclick="experiencia()">Adicionar</button>
+                </ul>
+            </form>
+            <input type="button" value="Enviar" id="submitBtn" onclick="enviar()">
+            <input type="button" value="Limpar" id="btn" onclick="limpar()">
+        </div>
+        <div id="curriculumOutput"></div>
+    </section>
+    <footer>
+        <p><h6>&copy;Cleyton Santos</h6></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
