@@ -1,10 +1,3 @@
-function adicionarItem() {
-    var lista = document.getElementById("listaItens");
-    var novoItem = document.createElement("li");
-    novoItem.textContent = "Novo Item";
-    lista.appendChild(novoItem);
-    
-}
 // Função genérica para criar input
 function criarInput(id, name) {
     const elementoInput = document.createElement('input');
@@ -13,7 +6,6 @@ function criarInput(id, name) {
     elementoInput.setAttribute('id', id);
     elementoInput.setAttribute('autocomplete', 'off');
     return elementoInput;
-    
 }
 
 
